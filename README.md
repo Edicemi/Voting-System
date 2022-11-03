@@ -21,7 +21,7 @@ This API is a system for voting
 
 | Parameter  | Type     | Description                        |
 | :--------- | :------- | :--------------------------------- |
-| `username`     | `string` | **Required**. username is required     |
+| `fullname`     | `string` | **Required**. fullname is required     |
 | `phone`    | `string` | **Required**. phone is required    |
 | `password` | `string` | **Required**. password is required |
 

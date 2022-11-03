@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Voting System</title>
+    <title>Voting System-Login Page</title>
 
     <!-- Bostrapp css link -->
 <!-- CSS only -->
@@ -12,14 +12,14 @@
 
 </head>
 <body class="bg-dark">
-    <h1 class="text-info text-center p-3">Voting System -Login Page</h1>
+    <h1 class="text-info text-center p-3">Voting System </h1>
     <div class="bg-info py-4">
         <h2 class="text-center">Login</h2>
         <div class="container text-center">
             <form action="">
-                <!-- username input -->
+                <!-- fullname input -->
                 <div class="mb-3">
-                    <input type="text" class= "form-control w-50 m-auto" name="username" placeholder="Enter your username" require="required">
+                    <input type="text" class= "form-control w-50 m-auto" name="fullname" placeholder="Enter your fullname" require="required">
                 </div>
 
                 <!-- mobile number input -->
@@ -40,7 +40,7 @@
                     </select>
                 </div>
                 <button type="submit" class="btn btn-dark my-4">Login</button>
-                <p>Don't have an account? <a href= "#" class="text-white"> Register here! </a></p>
+                <p>Don't have an account? <a href= "./partials/registration.php" class="text-white"> Register here! </a></p>
                 
 
             </form>
